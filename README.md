@@ -1,6 +1,10 @@
 # Error propogation in Hexapod Workspace due to kinematic parameters 
 Calculated and depicted the workspace of a hexapod parallel manipulator in a specific height (a section of the workspace) and then calculated and depicted the error propagation in the workspace as a result of errors in the kinematic parameters.
 
+Codes :
+Error_model.m - Run this code for pose error
+IK1P3.m - Inverse Kinematics for the platform  
+
 Known : The diameter of the top and base platform to be 250 mm and 650 mm,respectively. Consider 𝑙𝑚𝑖𝑛 (minimum leg extension) = 604.8652 𝑚𝑚 and 𝑙𝑚𝑎𝑥 (maximum leg extension) = 1100 𝑚𝑚. Also, Consider 𝛼 (angle between  universal joint on the top platform)  = 40° and 𝛽 (angle between  universal joint on the bottom platform) = 85°.
 # Steps:
 Steps 1: Calculated and depicted the boundary of the constant orientation workspace of the robot when 𝑍 = 800 𝑚𝑚 and the top platform is horizontal (𝑎 = 𝑏 = 𝑐 = 0). a,b,c are the euler angles.
